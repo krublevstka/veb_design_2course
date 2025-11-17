@@ -1,0 +1,98 @@
+/* =======================================
+   1. Загальні стилі та резервні шрифти
+   ======================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Резервний безпечний шрифт */
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+/* =======================================
+   2. Використання Google Fonts
+   ======================================= */
+
+/* Використання Montserrat */
+.montserrat-font {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #007bff;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.montserrat-text {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.montserrat-italic {
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Використання Oswald */
+.google-font {
+    font-family: 'Oswald', sans-serif;
+    color: #28a745;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+.google-font-emphasis {
+    font-weight: 700;
+    color: #1e7e34;
+}
+
+/* =======================================
+   3. Використання Веб-безпечного шрифту
+   ======================================= */
+
+.web-safe-font {
+    font-family: 'Times New Roman', Times, serif;
+    /* Використання класичної веб-безпечної лінійки */
+    color: #dc3545;
+    font-size: 1.8em;
+}
+
+.web-safe-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+/* =======================================
+   4. Стилі для іконок (Line Awesome)
+   ======================================= */
+
+.icon-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.icon-item i {
+    font-size: 4em;
+    color: #ffc107;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s;
+}
+
+/* ... решта стилів ... */
